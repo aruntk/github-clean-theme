@@ -298,10 +298,6 @@ a.js-selected-navigation-item.selected.subnav-item {
     border-style: solid;
 }
 
-svg.octicon.octicon-mark-github path {
-    color: black;
-}
-
 em.current {
     background-color: #4DB6AC;
     color: #f7fafa;
@@ -318,16 +314,6 @@ div.pagination a {
 
 button.btn-link.select-menu-button.js-menu-target {
     outline: none;
-}
-
-svg.octicon.octicon-mark-github {
-    border-color: white;
-    color: white;
-    background-color: transparent;
-}
-
-.header svg.octicon.octicon-mark-github {
-    color: white;
 }
 
 img.avatar {
@@ -429,5 +415,9 @@ div.CodeMirror-linenumber.CodeMirror-gutter-elt {
 
 div.CodeMirror-gutter.CodeMirror-linenumbers {
     border-color: black;
+}
+
+.header svg.octicon.octicon-mark-github {
+    color: white;
 }
 
