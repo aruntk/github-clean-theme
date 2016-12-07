@@ -23,10 +23,6 @@ span.owner.css-truncate-target {
     color: #365899;
 }
 
-button.ajax-pagination-btn {
-    outline: none;
-}
-
 * {
 }
 
@@ -212,5 +208,66 @@ div.profile-timeline-card.bg-white.border.border-gray-dark.rounded-1.px-4.pt-4 {
 div.profile-rollup-wrapper.py-4.pl-4.position-relative.ml-3.js-details-container.open {
     border: 1px solid #ccc;
     padding-right: 5px;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+button.ajax-pagination-btn {
+    outline: none;
+}
+
+button.btn.select-menu-button.with-gravatar.js-menu-target {
+    background-color: transparent;
+}
+
+div.alert.issues_closed {
+    background-color: white;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 1px solid #ddd;
+}
+
+div.alert.issues_opened {
+    background-color: white;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 1px solid #ddd;
+}
+
+div.alert.fork.simple {
+    background-color: white;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 1px solid #ddd;
+}
+
+div.alert.create.simple {
+    background-color: white;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 1px solid #ddd;
+}
+
+div.alert.issues_comment {
+    background-color: white;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 1px solid #ddd;
+}
+
+div.alert.watch_started.simple {
+    background-color: white;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 1px solid #ddd;
+}
+
+div.alert.push {
+    background-color: white;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 1px solid #ddd;
 }
 
