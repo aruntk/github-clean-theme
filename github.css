@@ -1,0 +1,216 @@
+svg.octicon.octicon-mark-github {
+    border-color: white;
+    color: white;
+}
+
+a.js-selected-navigation-item.header-nav-link {
+    color: white;
+}
+
+a.header-nav-link {
+    color: white;
+}
+
+div.title a {
+    color: #365899;
+}
+
+span.repo {
+    color: #365899;
+}
+
+span.owner.css-truncate-target {
+    color: #365899;
+}
+
+button.ajax-pagination-btn {
+    outline: none;
+}
+
+* {
+}
+
+span.owner.text-normal {
+    color: #365899;
+}
+
+a.btn.btn-primary.ml-3 {
+    background-color: white;
+    background: none;
+    color: #365899;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    border: none;
+}
+
+div.simple-box.mb-3 {
+    border-radius: 1px;
+}
+
+div.simple-box {
+    border-radius: 1px;
+}
+
+button.btn.select-menu-button.js-menu-target {
+    background: white;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid #999;
+}
+
+div.select-menu-modal {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 2px;
+    background-color: #ffffff;
+}
+
+ul.dropdown-menu.dropdown-menu-sw {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    background-color: #ffffff;
+}
+
+span.dropdown-caret {
+    color: white;
+    border-top-color: white;
+}
+
+div.dropdown-menu.dropdown-menu-sw {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    background-color: #ffffff;
+}
+
+a.btn.btn-sm.btn-primary {
+    background-color: white ;
+    background: white;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    color: black;
+    text-shadow: none;
+    border: 0px;
+    border-radius: 0px;
+}
+
+button.btn.btn-sm.btn-primary.select-menu-button.js-menu-target {
+    color: #444;
+    text-shadow: none;
+}
+
+div.dashboard-sidebar.column.one-third .private.source {
+    background: white;
+}
+
+a.mini-repo-list-item.css-truncate {
+}
+
+input.form-control.width-full.js-autosearch-field {
+    border: none;
+    border-bottom: 1px solid #757575;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+label.form-control.header-search-wrapper.js-chromeless-input-container {
+    border: none;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+div.header.header-logged-in.true {
+    background-color: #444;
+}
+
+div.boxed-group.js-repo-filter.flush h3 {
+    background-color: #444;
+    color: white;
+    box-shadow: none;
+    border: 1px solid #444;
+}
+
+span.counter {
+    background-color: #666;
+    color: white;
+}
+
+body.logged-in.env-production.macintosh.page-profile.mine {
+    background-color: #f2f2f2;
+}
+
+li.pinned-repo-item.p-3.mb-3.border.border-gray-dark.rounded-1.js-pinned-repo-list-item.public.source.reorderable {
+    background-color: white;
+}
+
+div.mb-5.border.border-gray-dark.rounded-1.py-2 {
+    background-color: white;
+}
+
+div.profile-timeline-year-list.bg-white.col-2.float-right.pl-5.js-profile-timeline-year-list.js-sticky {
+    background-color: #f2f2f2;
+}
+
+h3.profile-timeline-month-heading.bg-white.d-inline-block.h6.pr-2.py-1 {
+    background-color: #f2f2f2;
+}
+
+span.discussion-item-icon {
+    background-color: white;
+    border-style: solid;
+    border-color: #bbb;
+    border-width: 1px;
+}
+
+div.profile-rollup-summarized.js-details-container.py-2 {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+}
+
+li.ml-0.py-1 {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li.d-block.mt-1.py-1 {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img.avatar {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-timeline.discussion-timeline.pb-4::before {
+    background: none;
+}
+
+div.profile-rollup-wrapper.py-4.pl-4.position-relative.ml-3.js-details-container {
+    background-color: white;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    padding-right: 5px;
+}
+
+div.profile-timeline-card-wrapper {
+    border: none;
+    border-radius: 0px;
+}
+
+div.profile-timeline-card.bg-white.border.border-gray-dark.rounded-1.px-4.pt-4 {
+    border-style: solid;
+    background-color: fff;
+    border-color: #ccc;
+    border-radius: 0px;
+}
+
+div.profile-rollup-wrapper.py-4.pl-4.position-relative.ml-3.js-details-container.open {
+    border: 1px solid #ccc;
+    padding-right: 5px;
+}
+
