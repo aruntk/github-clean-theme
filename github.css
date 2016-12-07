@@ -102,17 +102,6 @@ label.form-control.header-search-wrapper.js-chromeless-input-container {
     border-radius: 0px;
 }
 
-div.header.header-logged-in.true {
-    background-color: #444;
-}
-
-div.boxed-group.js-repo-filter.flush h3 {
-    background-color: #444;
-    color: white;
-    box-shadow: none;
-    border: 1px solid #444;
-}
-
 span.counter {
     background-color: #666;
     color: white;
@@ -419,5 +408,15 @@ div.CodeMirror-gutter.CodeMirror-linenumbers {
 
 .header svg.octicon.octicon-mark-github {
     color: white;
+}
+
+div.boxed-group.js-repo-filter.flush h3 {
+    background-color: white;
+    color: #444;
+    box-shadow: none;
+}
+
+div.header.header-logged-in.true {
+    background-color: #546E7A;
 }
 
