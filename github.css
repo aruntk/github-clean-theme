@@ -405,3 +405,29 @@ a.btn.btn-primary.ml-3 {
     border: none;
 }
 
+td.blob-code.blob-code-inner.js-file-line {
+    background-color: black;
+    color: #aaa;
+}
+
+td.blob-num.js-line-number {
+    background-color: black;
+    color: #aaa;
+}
+
+pre.CodeMirror-line {
+    background-color: black;
+    color: #aaa;
+    border-color: #888;
+}
+
+div.CodeMirror-linenumber.CodeMirror-gutter-elt {
+    color: #aaa;
+    background-color: black;
+    border-color: black;
+}
+
+div.CodeMirror-gutter.CodeMirror-linenumbers {
+    border-color: black;
+}
+
