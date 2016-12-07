@@ -25,14 +25,6 @@ span.owner.text-normal {
     color: #365899;
 }
 
-a.btn.btn-primary.ml-3 {
-    background-color: white;
-    background: none;
-    color: #365899;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
-    border: none;
-}
-
 div.simple-box.mb-3 {
     border-radius: 1px;
 }
@@ -46,6 +38,7 @@ button.btn.select-menu-button.js-menu-target {
     border-radius: 0px;
     border: none;
     border-bottom: 1px solid #999;
+    background-color: transparent;
 }
 
 div.select-menu-modal {
@@ -100,6 +93,7 @@ input.form-control.width-full.js-autosearch-field {
     border-bottom: 1px solid #757575;
     box-shadow: none;
     border-radius: 0px;
+    background-color: transparent;
 }
 
 label.form-control.header-search-wrapper.js-chromeless-input-container {
@@ -168,11 +162,6 @@ li.d-block.mt-1.py-1 {
     background-color: white;
     padding-left: 10px;
     padding-right: 10px;
-}
-
-img.avatar {
-    border-radius: 50%;
-    overflow: hidden;
 }
 
 .profile-timeline.discussion-timeline.pb-4::before {
@@ -339,5 +328,80 @@ svg.octicon.octicon-mark-github {
 
 .header svg.octicon.octicon-mark-github {
     color: white;
+}
+
+img.avatar {
+    border-radius: 50%;
+    background-color: white;
+}
+
+div.highlight.highlight-source-js pre {
+    background-color: #000;
+    color: #bbb;
+}
+
+div.highlight.highlight-text-html-basic pre {
+    background-color: black;
+    color: #aaa;
+}
+
+span.pl-s {
+    color: #26A69A;
+}
+
+span.pl-pds {
+    color: #26A69A;
+}
+
+span.pl-smi {
+    color: #E65100;
+}
+
+span.pl-c {
+    color: #555;
+}
+
+span.pl-ent {
+    color: #bbb;
+}
+
+span.pl-en {
+    color: #BA68C8;
+}
+
+li.col-12.d-block.width-full.py-4.border-bottom.public.source {
+    background-color: white;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li.col-12.d-block.width-full.py-4.border-bottom.public.fork {
+    background-color: white;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+a.btn.btn-primary.ml-3:hover {
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 4px 1px -3px rgba(0,0,0,0.2);
+}
+
+a.btn.btn-primary.ml-3:active {
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.14), 0 2px 10px 0 rgba(0,0,0,0.12), 0 6px 2px -4px rgba(0,0,0,0.2);
+}
+
+a.btn.btn-primary.ml-3 {
+    background-color: white;
+    background: white;
+    color: #365899;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    border: none;
 }
 
