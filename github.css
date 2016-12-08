@@ -1,142 +1,384 @@
-a.js-selected-navigation-item.header-nav-link {
+* {
+}
+
+.btn.btn-danger {
+    background: #FF8A80;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
     color: white;
+}
+
+.btn.btn-primary {
+    background: #81C784;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    color: white;
+}
+
+.header svg.octicon.octicon-mark-github {
+    color: white;
+}
+
+.profile-timeline.discussion-timeline.pb-4::before {
+    background: none;
+}
+
+a.btn.btn-primary.ml-3 {
+    background: white;
+    background-color: white;
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    color: #365899;
+}
+
+a.btn.btn-primary.ml-3:active {
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.14), 0 2px 10px 0 rgba(0,0,0,0.12), 0 6px 2px -4px rgba(0,0,0,0.2);
+}
+
+a.btn.btn-primary.ml-3:hover {
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 4px 1px -3px rgba(0,0,0,0.2);
+}
+
+a.btn.btn-sm.BtnGroup-item {
+    background: white;
+}
+
+a.btn.btn-sm.btn-primary {
+    background: white;
+    background-color: white ;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    color: black;
+    text-shadow: none;
+}
+
+a.btn.btn-sm.btn-with-count {
+    background: white;
+}
+
+a.btn.btn-sm.btn-with-count.select-menu-button.js-menu-target {
+    background: white;
+}
+
+a.btn.btn-sm.new-pull-request-btn {
+    background: white;
 }
 
 a.header-nav-link {
     color: white;
 }
 
-div.title a {
-    color: #365899;
-}
-
-span.repo {
-    color: #365899;
-}
-
-span.owner.css-truncate-target {
-    color: #365899;
-}
-
-* {
-}
-
-span.owner.text-normal {
-    color: #365899;
-}
-
-div.simple-box.mb-3 {
-    border-radius: 1px;
-}
-
-div.simple-box {
-    border-radius: 1px;
-}
-
-button.btn.select-menu-button.js-menu-target {
-    background: white;
-    border-radius: 0px;
-    border: none;
-    border-bottom: 1px solid #999;
-    background-color: transparent;
-}
-
-div.select-menu-modal {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-    position: relative;
-    border-radius: 2px;
-    background-color: #ffffff;
-}
-
-ul.dropdown-menu.dropdown-menu-sw {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-    border-radius: 2px;
-    background-color: #ffffff;
-}
-
-span.dropdown-caret {
+a.js-selected-navigation-item.header-nav-link {
     color: white;
-    border-top-color: white;
 }
 
-div.dropdown-menu.dropdown-menu-sw {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-    border-radius: 2px;
-    background-color: #ffffff;
+a.js-selected-navigation-item.selected.subnav-item {
+    background-color: #4DB6AC;
+    border-color: #009688;
+    border-style: solid;
 }
 
-a.btn.btn-sm.btn-primary {
-    background-color: white ;
-    background: white;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-    color: black;
-    text-shadow: none;
-    border: 0px;
-    border-radius: 0px;
-}
-
-div.dashboard-sidebar.column.one-third .private.source {
-    background: white;
+a.js-selected-navigation-item.subnav-item {
+    background-color: white;
 }
 
 a.mini-repo-list-item.css-truncate {
 }
 
-input.form-control.width-full.js-autosearch-field {
-    border: none;
-    border-bottom: 1px solid #757575;
-    box-shadow: none;
-    border-radius: 0px;
-    background-color: transparent;
+a.next_page {
+    color: #009688;
 }
 
-label.form-control.header-search-wrapper.js-chromeless-input-container {
-    border: none;
-    box-shadow: none;
-    border-radius: 0px;
-}
-
-span.counter {
-    background-color: #666;
-    color: white;
+body {
+    background-color: #f2f2f2;
 }
 
 body.logged-in.env-production.macintosh.page-profile.mine {
     background-color: #f2f2f2;
 }
 
-li.pinned-repo-item.p-3.mb-3.border.border-gray-dark.rounded-1.js-pinned-repo-list-item.public.source.reorderable {
+button.ajax-pagination-btn {
+    outline: none;
+}
+
+button.btn {
+    background: white;
+}
+
+button.btn-link.select-menu-button.js-menu-target {
+    outline: none;
+}
+
+button.btn.btn-sm.btn-primary.select-menu-button.js-menu-target {
+    background: white;
+    color: #444;
+    text-shadow: none;
+}
+
+button.btn.btn-sm.js-toggler-target {
+    background: white;
+}
+
+button.btn.btn-sm.select-menu-button.js-menu-target {
     background-color: white;
+}
+
+button.btn.btn-sm.select-menu-button.js-menu-target.css-truncate {
+    background-color: transparent;
+}
+
+button.btn.select-menu-button.js-menu-target {
+    background: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #999;
+    border-radius: 0px;
+}
+
+button.btn.select-menu-button.with-gravatar.js-menu-target {
+    background-color: transparent;
+}
+
+div.CodeMirror-gutter.CodeMirror-linenumbers {
+    border-color: black;
+}
+
+div.CodeMirror-linenumber.CodeMirror-gutter-elt {
+    background-color: black;
+    border-color: black;
+    color: #aaa;
+}
+
+div.alert.create.simple {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+div.alert.fork.simple {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+div.alert.issues_closed {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+div.alert.issues_comment {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+div.alert.issues_opened {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+div.alert.push {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+div.alert.watch_started.simple {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+div.boxed-group.js-repo-filter.flush h3 {
+    background-color: white;
+    box-shadow: none;
+    color: #444;
+}
+
+div.commit-form.position-relative.p-3.mb-2.border.rounded-1 {
+    background-color: white;
+}
+
+div.d-table.table-fixed.width-full.Box-row--drag-hide {
+    background-color: white;
+}
+
+div.dashboard-sidebar.column.one-third .private.source {
+    background: white;
+}
+
+div.dropdown-menu.dropdown-menu-sw {
+    background-color: #ffffff;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+div.file {
+    background-color: white;
+}
+
+div.header.header-logged-in.true {
+    background-color: #546E7A;
+}
+
+div.highlight.highlight-source-js pre {
+    background-color: #000;
+    border-bottom-width: 10pxpx;
+    border-color: blue;
+    border-style: none;
+    border-width: 0;
+    color: #bbb;
+}
+
+div.highlight.highlight-source-json pre {
+    background-color: black;
+    color: #aaa;
+}
+
+div.highlight.highlight-source-shell pre {
+    background-color: black;
+    color: #aaa;
+}
+
+div.highlight.highlight-text-html-basic pre {
+    background-color: black;
+    color: #aaa;
 }
 
 div.mb-5.border.border-gray-dark.rounded-1.py-2 {
     background-color: white;
 }
 
+div.overall-summary.overall-summary-bottomless {
+    background-color: white;
+}
+
+div.pagehead.codesearch-head {
+    border-color: #ddd;
+}
+
+div.pagination a {
+    color: #009688;
+}
+
+div.profile-rollup-summarized.js-details-container.py-2 {
+    background-color: white;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.profile-rollup-wrapper.py-4.pl-4.position-relative.ml-3.js-details-container {
+    background-color: white;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    padding-right: 5px;
+}
+
+div.profile-rollup-wrapper.py-4.pl-4.position-relative.ml-3.js-details-container.open {
+    border: 1px solid #ccc;
+    padding-right: 5px;
+}
+
+div.profile-timeline-card-wrapper {
+    border: none;
+    border-radius: 0px;
+}
+
+div.profile-timeline-card.bg-white.border.border-gray-dark.rounded-1.px-4.pt-4 {
+    background-color: fff;
+    border-color: #ccc;
+    border-radius: 0px;
+    border-style: solid;
+}
+
 div.profile-timeline-year-list.bg-white.col-2.float-right.pl-5.js-profile-timeline-year-list.js-sticky {
     background-color: #f2f2f2;
+}
+
+div.select-menu-modal {
+    background-color: #ffffff;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+div.simple-box {
+    border-radius: 1px;
+}
+
+div.simple-box.mb-3 {
+    border-radius: 1px;
+}
+
+div.title a {
+    color: #365899;
+}
+
+em.current {
+    background-color: #4DB6AC;
+    border-color: #4DB6AC;
+    color: #f7fafa;
 }
 
 h3.profile-timeline-month-heading.bg-white.d-inline-block.h6.pr-2.py-1 {
     background-color: #f2f2f2;
 }
 
-span.discussion-item-icon {
+img.avatar {
     background-color: white;
-    border-style: solid;
-    border-color: #bbb;
-    border-width: 1px;
+    border-radius: 50%;
 }
 
-div.profile-rollup-summarized.js-details-container.py-2 {
+img.avatar.width-full.rounded-2 {
+    border: 1px solid white;
+    border-radius: 0px;
+}
+
+input.form-control.width-full.js-autosearch-field {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #757575;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+label.form-control.header-search-wrapper.js-chromeless-input-container {
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+li.col-12.d-block.width-full.py-4.border-bottom.public.fork {
     background-color: white;
+    margin-bottom: 4px;
+    margin-top: 4px;
     padding-left: 10px;
     padding-right: 10px;
-    border-radius: 3px;
 }
 
-li.ml-0.py-1 {
+li.col-12.d-block.width-full.py-4.border-bottom.public.source {
     background-color: white;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 4px;
+    margin-top: 4px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -147,172 +389,76 @@ li.d-block.mt-1.py-1 {
     padding-right: 10px;
 }
 
-.profile-timeline.discussion-timeline.pb-4::before {
-    background: none;
-}
-
-div.profile-rollup-wrapper.py-4.pl-4.position-relative.ml-3.js-details-container {
+li.follow-list-item.float-left.border-bottom {
     background-color: white;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    border-color: #ccc;
     border-style: solid;
     border-width: 1px;
-    border-color: #ccc;
-    padding-right: 5px;
+    padding: 6px;
 }
 
-div.profile-timeline-card-wrapper {
-    border: none;
-    border-radius: 0px;
-}
-
-div.profile-timeline-card.bg-white.border.border-gray-dark.rounded-1.px-4.pt-4 {
-    border-style: solid;
-    background-color: fff;
-    border-color: #ccc;
-    border-radius: 0px;
-}
-
-div.profile-rollup-wrapper.py-4.pl-4.position-relative.ml-3.js-details-container.open {
-    border: 1px solid #ccc;
-    padding-right: 5px;
-}
-
-body {
-    background-color: #f2f2f2;
-}
-
-button.ajax-pagination-btn {
-    outline: none;
-}
-
-button.btn.select-menu-button.with-gravatar.js-menu-target {
-    background-color: transparent;
-}
-
-div.alert.issues_closed {
+li.ml-0.py-1 {
     background-color: white;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: 1px solid #ddd;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-div.alert.issues_opened {
-    background-color: white;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: 1px solid #ddd;
-}
-
-div.alert.fork.simple {
-    background-color: white;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: 1px solid #ddd;
-}
-
-div.alert.create.simple {
-    background-color: white;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: 1px solid #ddd;
-}
-
-div.alert.issues_comment {
-    background-color: white;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: 1px solid #ddd;
-}
-
-div.alert.watch_started.simple {
-    background-color: white;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: 1px solid #ddd;
-}
-
-div.alert.push {
-    background-color: white;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    border: 1px solid #ddd;
-}
-
-div.file {
+li.pinned-repo-item.p-3.mb-3.border.border-gray-dark.rounded-1.js-pinned-repo-list-item.public.source {
     background-color: white;
 }
 
-div.commit-form.position-relative.p-3.mb-2.border.rounded-1 {
+li.pinned-repo-item.p-3.mb-3.border.border-gray-dark.rounded-1.js-pinned-repo-list-item.public.source.reorderable {
     background-color: white;
 }
 
-.btn.btn-primary {
-    background: #81C784;
-    color: white;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
-    border: none;
-    border-radius: 1px;
-}
-
-.btn.btn-danger {
-    background: #FF8A80;
-    color: white;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
-    border: none;
-    border-radius: 1px;
-}
-
-div.overall-summary.overall-summary-bottomless {
-    background-color: white;
-}
-
-div.d-table.table-fixed.width-full.Box-row--drag-hide {
-    background-color: white;
-}
-
-a.js-selected-navigation-item.subnav-item {
-    background-color: white;
-}
-
-a.js-selected-navigation-item.selected.subnav-item {
-    background-color: #4DB6AC;
-    border-color: #009688;
-    border-style: solid;
-}
-
-a.next_page {
-    color: #009688;
-}
-
-div.pagination a {
-    color: #009688;
-}
-
-button.btn-link.select-menu-button.js-menu-target {
-    outline: none;
-}
-
-img.avatar {
-    border-radius: 50%;
-    background-color: white;
-}
-
-div.highlight.highlight-source-js pre {
-    background-color: #000;
-    color: #bbb;
-}
-
-div.highlight.highlight-text-html-basic pre {
+pre.CodeMirror-line {
     background-color: black;
+    border-color: #888;
     color: #aaa;
 }
 
-span.pl-s {
-    color: #26A69A;
+span.counter {
+    background-color: #666;
+    color: white;
+}
+
+span.discussion-item-icon {
+    background-color: white;
+    border-color: #bbb;
+    border-style: solid;
+    border-width: 1px;
+}
+
+span.dropdown-caret {
+    border-top-color: white;
+    color: white;
+}
+
+span.owner.css-truncate-target {
+    color: #365899;
+}
+
+span.owner.text-normal {
+    color: #365899;
+}
+
+span.pl-c {
+    color: #555;
+}
+
+span.pl-en {
+    color: #BA68C8;
+}
+
+span.pl-ent {
+    color: #bbb;
 }
 
 span.pl-pds {
+    color: #26A69A;
+}
+
+span.pl-s {
     color: #26A69A;
 }
 
@@ -320,51 +466,8 @@ span.pl-smi {
     color: #E65100;
 }
 
-span.pl-c {
-    color: #555;
-}
-
-span.pl-ent {
-    color: #bbb;
-}
-
-span.pl-en {
-    color: #BA68C8;
-}
-
-li.col-12.d-block.width-full.py-4.border-bottom.public.source {
-    background-color: white;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #ddd;
-}
-
-li.col-12.d-block.width-full.py-4.border-bottom.public.fork {
-    background-color: white;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-a.btn.btn-primary.ml-3:hover {
-    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 4px 1px -3px rgba(0,0,0,0.2);
-}
-
-a.btn.btn-primary.ml-3:active {
-    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.14), 0 2px 10px 0 rgba(0,0,0,0.12), 0 6px 2px -4px rgba(0,0,0,0.2);
-}
-
-a.btn.btn-primary.ml-3 {
-    background-color: white;
-    background: white;
+span.repo {
     color: #365899;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
-    border: none;
 }
 
 td.blob-code.blob-code-inner.js-file-line {
@@ -377,78 +480,14 @@ td.blob-num.js-line-number {
     color: #aaa;
 }
 
-pre.CodeMirror-line {
+td.d-block.comment-body.markdown-body.markdown-format.js-comment-body pre {
     background-color: black;
-    color: #aaa;
-    border-color: #888;
+    color: #bbb;
 }
 
-div.CodeMirror-linenumber.CodeMirror-gutter-elt {
-    color: #aaa;
-    background-color: black;
-    border-color: black;
-}
-
-div.CodeMirror-gutter.CodeMirror-linenumbers {
-    border-color: black;
-}
-
-.header svg.octicon.octicon-mark-github {
-    color: white;
-}
-
-div.boxed-group.js-repo-filter.flush h3 {
-    background-color: white;
-    color: #444;
-    box-shadow: none;
-}
-
-div.header.header-logged-in.true {
-    background-color: #546E7A;
-}
-
-button.btn.btn-sm.select-menu-button.js-menu-target {
-    background-color: white;
-}
-
-button.btn {
-    background: white;
-}
-
-em.current {
-    background-color: #4DB6AC;
-    color: #f7fafa;
-    border-color: #4DB6AC;
-}
-
-div.pagehead.codesearch-head {
-    border-color: #ddd;
-}
-
-a.btn.btn-sm.btn-with-count.select-menu-button.js-menu-target {
-    background: white;
-}
-
-a.btn.btn-sm.btn-with-count {
-    background: white;
-}
-
-a.btn.btn-sm.new-pull-request-btn {
-    background: white;
-}
-
-a.btn.btn-sm.BtnGroup-item {
-    background: white;
-}
-
-button.btn.btn-sm.btn-primary.select-menu-button.js-menu-target {
-    color: #444;
-    text-shadow: none;
-    background: white;
-}
-
-img.avatar.width-full.rounded-2 {
-    border-radius: 0px;
-    border: 1px solid white;
+ul.dropdown-menu.dropdown-menu-sw {
+    background-color: #ffffff;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 }
 
