@@ -45,16 +45,6 @@ a.btn.btn-sm.BtnGroup-item {
     background: white;
 }
 
-a.btn.btn-sm.btn-primary {
-    background: white;
-    background-color: white ;
-    border: 0px;
-    border-radius: 0px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-    color: black;
-    text-shadow: none;
-}
-
 a.btn.btn-sm.btn-with-count {
     background: white;
 }
@@ -110,12 +100,6 @@ button.btn {
 
 button.btn-link.select-menu-button.js-menu-target {
     outline: none;
-}
-
-button.btn.btn-sm.btn-primary.select-menu-button.js-menu-target {
-    background: white;
-    color: #444;
-    text-shadow: none;
 }
 
 button.btn.btn-sm.js-toggler-target {
@@ -364,25 +348,6 @@ label.form-control.header-search-wrapper.js-chromeless-input-container {
     box-shadow: none;
 }
 
-li.col-12.d-block.width-full.py-4.border-bottom.public.fork {
-    background-color: white;
-    margin-bottom: 4px;
-    margin-top: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-li.col-12.d-block.width-full.py-4.border-bottom.public.source {
-    background-color: white;
-    border-color: #ddd;
-    border-style: solid;
-    border-width: 1px;
-    margin-bottom: 4px;
-    margin-top: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 li.d-block.mt-1.py-1 {
     background-color: white;
     padding-left: 10px;
@@ -491,3 +456,107 @@ ul.dropdown-menu.dropdown-menu-sw {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 }
 
+li.col-12.d-block.width-full.py-4.border-bottom.private.source {
+    background-color: white;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+button.btn.btn-sm.btn-primary.select-menu-button.js-menu-target {
+    background: white;
+    color: #444;
+    text-shadow: none;
+}
+
+li.col-12.d-block.width-full.py-4.border-bottom.public.source {
+    background-color: white;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li.col-12.d-block.width-full.py-4.border-bottom.public.fork {
+    background-color: white;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.js-discussion.js-socket-channel {
+    background-color: transparent;
+    padding: 5px;
+    border-style: none;
+    border-color: #ccc;
+    border-width: 1px;
+}
+
+div.discussion-timeline-actions {
+    background: transparent;
+}
+
+div.timeline-comment-wrapper.timeline-new-comment.js-comment-container {
+    border-style: none;
+}
+
+div.timeline-comment-wrapper.js-comment-container {
+    border-style: none;
+}
+
+a.btn.btn-sm.btn-primary {
+    background: white;
+    background-color: white ;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    color: black;
+    text-shadow: none;
+}
+
+button.btn.btn-sm.js-details-target {
+    background: white;
+    background-color: white ;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    color: black;
+    text-shadow: none;
+}
+
+div.thread-subscription-status.js-thread-subscription-status.js-socket-channel.js-updatable-content {
+    background-color: transparent;
+}
+
+button.btn.js-comment-and-button {
+    background: white;
+    background-color: white ;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    color: black;
+    text-shadow: none;
+}
+
+div.p-3.pr-6.container-lg.position-relative.border-bottom.border-gray-light {
+    background-color: #f9f9f9;
+}
+
+div.bg-gray.p-3.border-bottom {
+    background-color: white;
+}
+
+a.muted-link.h4.pr-1 {
+    color: #3F51B5;
+}
