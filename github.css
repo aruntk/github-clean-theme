@@ -1,5 +1,4 @@
 * {
-    outline: none;
 }
 
 .btn.btn-danger {
@@ -216,15 +215,6 @@ div.file {
 
 div.header.header-logged-in.true {
     background-color: #546E7A;
-}
-
-div.highlight.highlight-source-js pre {
-    background-color: #000;
-    border-bottom-width: 10pxpx;
-    border-color: blue;
-    border-style: none;
-    border-width: 0;
-    color: #bbb;
 }
 
 div.highlight.highlight-source-json pre {
@@ -576,5 +566,25 @@ div.CodeMirror-scroll {
 
 span.pl-s1 {
     color: #8d9e0f;
+}
+
+::selection {
+    background: #8a8a8a;
+    /* WebKit/Blink Browsers */
+}
+
+div.highlight.highlight-source-js pre {
+    background-color: #000;
+    border-bottom-width: 10pxpx;
+    border-color: blue;
+    border-style: none;
+    border-width: 0;
+    color: #bbb;
+}
+
+button.btn.btn-primary.select-menu-button.BtnGroup-item.js-menu-target {
+    color: black;
+    box-shadow: nonne;
+    border-style: none;
 }
 
