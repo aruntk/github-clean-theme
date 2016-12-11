@@ -126,10 +126,6 @@ button.btn.select-menu-button.with-gravatar.js-menu-target {
     background-color: transparent;
 }
 
-div.CodeMirror-gutter.CodeMirror-linenumbers {
-    border-color: black;
-}
-
 div.CodeMirror-linenumber.CodeMirror-gutter-elt {
     background-color: black;
     border-color: black;
@@ -586,5 +582,9 @@ button.btn.btn-primary.select-menu-button.BtnGroup-item.js-menu-target {
     color: black;
     box-shadow: nonne;
     border-style: none;
+}
+
+div.CodeMirror-gutter.CodeMirror-linenumbers {
+    background-color: black;
 }
 
